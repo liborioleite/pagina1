@@ -156,3 +156,22 @@ ul.square {
 .span-options{
     font-weight: normal;
 }
+
+.companies{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mid-menu {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3px 3px 3px 3px;
+    border-radius: 10px;
+    background-color: black;
+    color:  white;
+    text-align: center;
+    font-weight: bold;
+}
