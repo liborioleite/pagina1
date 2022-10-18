@@ -1,0 +1,158 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.div-navigation {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 40px 40px 40px;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 0.2px solid rgb(230, 227, 227);
+}
+
+.btn-menu {
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 0;
+}
+
+.btn-menu:focus {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+
+}
+
+.icon-telegram {
+    width: 10%;
+    border-radius: 100px;
+    background-color: blueviolet;
+}
+
+.navbar-icon {
+    margin-top: 27px;
+    width: 3%;
+    height: 33px;
+}
+
+.send {
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(98, 0, 255), rgb(0, 255, 255));
+    border: none;
+}
+
+.send2 {
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(22, 21, 22), rgb(89, 94, 94));
+    border: none;
+}
+
+.topo-menu {
+    margin-top: 30px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.topo-menu:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.topo-menu:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.headline {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(223, 220, 220);
+}
+
+.div-top-left-span {
+    color: blueviolet;
+}
+
+.headline .left {
+    width: 50%;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline .rigth {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
+
+.headline .rigth .logo {
+    width: 50%;
+}
+
+.text-h4 {
+    margin-right: 30px;
+    text-align: right;
+    color: blueviolet;
+}
+
+.div-top-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.options {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-content: space-between;
+}
+
+ul.square {
+    list-style-type: square;
+    font-weight: bolder;
+}
+
+.span-options{
+    font-weight: normal;
+}
